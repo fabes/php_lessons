@@ -1,0 +1,20 @@
+To get the latest from the repository, do the following command from a shell/terminal:
+git pull
+
+You can check to confirm your changes or get a status on the repository by doing:
+git status
+
+You can add ALL files/changes to the repository by doing:
+git add .
+
+If you want to add single files to the repository you can do:
+git add the_name_of_your_file_here
+
+Once you added your files/changes, always ensure to commit with a meaningful message
+git commit -m "Whatever message you want in quotes"
+
+Once you are ready to push your changes to the repository, do:
+git push
+
+
+*You may be asked to input your username and password associated with your git account
