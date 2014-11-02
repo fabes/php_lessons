@@ -1,4 +1,4 @@
-php_lessons
+PHP Lessons
 ===========
 
-PHP Lessons
+Sharing my PHP knowledge with others
