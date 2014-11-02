@@ -20,6 +20,10 @@
 			<input type="text" name="email">
 		</div>
 		<div>
+			<label>Enter a password</label>
+			<input type="password" name="password" >
+		</div>
+		<div>
 			<input type="submit" name="submit_button" value="Create Profile">
 		</div>
 		<!-- This is a HTML comment-->
@@ -50,6 +54,12 @@ if(isset($_GET['submit_button'])){
 		print "<br/>This is what was submitted for email --> ".$_GET['email'];
 	}else{
 		print "<br/> Please enter a value for your email";
+	}//eof vaildating last name field
+
+	if($_GET['password'] != ''){
+		print "<br/>This is what was submitted for password --> ".$_GET['password'];
+	}else{
+		print "<br/> Please enter a value for your password";
 	}//eof vaildating last name field
 
 }//eof check if submit button is pressed/is set
